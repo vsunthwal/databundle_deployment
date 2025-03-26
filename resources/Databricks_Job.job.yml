@@ -12,7 +12,7 @@ resources:
 
       email_notifications:
         on_failure:
-          - plahari@microsoft.com
+          - vsunthwal@microsoft.com
 
       tasks:
         - task_key: notebook_task
