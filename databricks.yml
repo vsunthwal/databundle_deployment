@@ -2,7 +2,7 @@
 # See https://docs.databricks.com/dev-tools/bundles/index.html for documentation.
 bundle:
   name: Databricks_Job
-  uuid: fae93ae8-73e8-4af1-8d4d-be12cf14c4b5
+  uuid: b2e239ce-d1b3-4b1f-9f4b-342cbf02c71d
 
 include:
   - resources/*.yml
@@ -16,16 +16,16 @@ targets:
     mode: development
     default: true
     workspace:
-      host: https://adb-3242339362109357.17.azuredatabricks.net
+      host: https://adb-1847583793760376.16.azuredatabricks.net
 
   prod:
     mode: production
     workspace:
-      host: https://adb-3242339362109357.17.azuredatabricks.net
+      host: https://adb-1847583793760376.16.azuredatabricks.net
       # We explicitly specify /Workspace/Users/plahari@microsoft.com to make sure we only have a single copy.
       root_path: /Workspace/Users/plahari@microsoft.com/.bundle/${bundle.name}/${bundle.target}
     permissions:
-      - user_name: plahari@microsoft.com
+      - user_name: vsunthwal@microsoft.com
         level: CAN_MANAGE
     run_as:
-      user_name: plahari@microsoft.com
+      user_name: vsunthwal@microsoft.com
