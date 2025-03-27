@@ -23,7 +23,7 @@ targets:
     workspace:
       host: https://adb-1847583793760376.16.azuredatabricks.net
       # We explicitly specify /Workspace/Users/plahari@microsoft.com to make sure we only have a single copy.
-      root_path: /Workspace/Users/plahari@microsoft.com/.bundle/${bundle.name}/${bundle.target}
+      root_path: /Workspace/Users/vsunthwal@microsoft.com/.bundle/${bundle.name}/${bundle.target}
     permissions:
       - user_name: vsunthwal@microsoft.com
         level: CAN_MANAGE
