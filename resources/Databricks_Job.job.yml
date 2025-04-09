@@ -12,7 +12,7 @@ resources:
 
       email_notifications:
         on_failure:
-          - vsunthwal@microsoft.com
+          - valinisunthwal2003@gmail.com
 
       tasks:
         - task_key: notebook_task
