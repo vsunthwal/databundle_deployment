@@ -2,7 +2,7 @@
 # See https://docs.databricks.com/dev-tools/bundles/index.html for documentation.
 bundle:
   name: Databricks_Job
-  uuid: 0407-071512-ave117p0
+  uuid: fae93ae8-73e8-4af1-8d4d-be12cf14c4b5
 
 include:
   - resources/*.yml
